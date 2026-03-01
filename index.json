@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "updated": "2026-03-01",
+  "skills": [
+    {
+      "slug": "weather",
+      "name": "Weather Check",
+      "description": "Get current weather and forecasts for any location",
+      "category": "utilities",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/weather.md",
+      "tools": ["location.get", "browser.search"],
+      "apps": ["Weather"],
+      "downloads": 0
+    },
+    {
+      "slug": "summarize",
+      "name": "Summarize",
+      "description": "Summarize the content currently on screen, a web page, or text provided by the user",
+      "category": "productivity",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/summarize.md",
+      "tools": ["screen.read", "screen.capture", "vision.analyze", "browser.open", "app.automate"],
+      "apps": [],
+      "downloads": 0
+    },
+    {
+      "slug": "find_places",
+      "name": "Find Places",
+      "description": "Find restaurants, shops, gas stations, or any nearby place using Google Maps",
+      "category": "navigation",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/find_places.md",
+      "tools": ["location.get", "app.launch", "app.automate", "screen.read"],
+      "apps": ["Google Maps", "Waze"],
+      "downloads": 0
+    },
+    {
+      "slug": "music_control",
+      "name": "Music Control",
+      "description": "Play, pause, skip, or search for music on Spotify, YouTube Music, or other music apps",
+      "category": "entertainment",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/music_control.md",
+      "tools": ["app.launch", "app.automate", "screen.read", "notification.listen"],
+      "apps": ["Spotify", "YouTube Music", "Apple Music"],
+      "downloads": 0
+    },
+    {
+      "slug": "ride_hailing",
+      "name": "Ride Hailing",
+      "description": "Book a ride using Uber, Lyft, or other ride-hailing apps",
+      "category": "transportation",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/ride_hailing.md",
+      "tools": ["location.get", "app.launch", "app.automate", "screen.read", "heartbeat.context"],
+      "apps": ["Uber", "Lyft"],
+      "downloads": 0
+    },
+    {
+      "slug": "food_ordering",
+      "name": "Food Ordering",
+      "description": "Order food delivery from DoorDash, UberEats, or other food delivery apps",
+      "category": "food",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/food_ordering.md",
+      "tools": ["location.get", "app.launch", "app.automate", "screen.read", "screen.capture", "vision.analyze"],
+      "apps": ["DoorDash", "Uber Eats", "Grubhub"],
+      "downloads": 0
+    },
+    {
+      "slug": "social_media",
+      "name": "Social Media",
+      "description": "Check feeds, post content, or reply on social media apps like Instagram, X, or TikTok",
+      "category": "social",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/social_media.md",
+      "tools": ["app.launch", "app.automate", "screen.read", "screen.capture", "vision.analyze", "camera.snap"],
+      "apps": ["Instagram", "X / Twitter", "TikTok", "Facebook", "Reddit"],
+      "downloads": 0
+    },
+    {
+      "slug": "shopping",
+      "name": "Shopping",
+      "description": "Search for products, compare prices, and make purchases on Amazon or other shopping apps",
+      "category": "shopping",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/shopping.md",
+      "tools": ["app.launch", "app.automate", "screen.read", "screen.capture", "vision.analyze"],
+      "apps": ["Amazon", "Walmart", "Target", "eBay"],
+      "downloads": 0
+    },
+    {
+      "slug": "fitness",
+      "name": "Fitness Tracking",
+      "description": "Track workouts, check step counts, log exercises, or start fitness timers",
+      "category": "health",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/fitness.md",
+      "tools": ["app.launch", "app.automate", "screen.read", "sensor.read", "schedule.manage"],
+      "apps": ["Google Fit", "Samsung Health", "Strava", "Nike Run Club"],
+      "downloads": 0
+    },
+    {
+      "slug": "smart_home",
+      "name": "Smart Home",
+      "description": "Control smart home devices like lights, thermostat, locks, and cameras",
+      "category": "smart-home",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/smart_home.md",
+      "tools": ["app.launch", "app.automate", "screen.read", "screen.capture", "vision.analyze"],
+      "apps": ["Google Home", "Amazon Alexa", "Samsung SmartThings"],
+      "downloads": 0
+    }
+  ]
+}
