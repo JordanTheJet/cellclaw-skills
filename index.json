@@ -121,6 +121,54 @@
       "tools": ["app.launch", "app.automate", "screen.read", "screen.capture", "vision.analyze"],
       "apps": ["Google Home", "Amazon Alexa", "Samsung SmartThings"],
       "downloads": 0
+    },
+    {
+      "slug": "dating-swipe",
+      "name": "Dating Swipe",
+      "description": "Swipe through profiles on Tinder, Bumble, or Hinge based on your preferences",
+      "category": "social",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/dating_swipe.md",
+      "tools": ["app.launch", "app.automate", "screen.read", "screen.capture", "vision.analyze"],
+      "apps": ["Tinder", "Bumble", "Hinge"],
+      "downloads": 0
+    },
+    {
+      "slug": "dating-message",
+      "name": "Dating Message",
+      "description": "Message matches on dating apps, keep conversations going, and steer toward scheduling a date",
+      "category": "social",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/dating_message.md",
+      "tools": ["app.launch", "app.automate", "screen.read", "screen.capture", "vision.analyze"],
+      "apps": ["Tinder", "Bumble", "Hinge"],
+      "downloads": 0
+    },
+    {
+      "slug": "dating-schedule",
+      "name": "Dating Schedule",
+      "description": "Schedule confirmed dates into the calendar with time, location, and details from the conversation",
+      "category": "social",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/dating_schedule.md",
+      "tools": ["app.launch", "app.automate", "screen.read", "calendar.create", "calendar.query", "location.get", "browser.search", "browser.open", "phone.call", "notification.send"],
+      "apps": ["Tinder", "Bumble", "Hinge", "Google Calendar"],
+      "downloads": 0
+    },
+    {
+      "slug": "dating-orchestrator",
+      "name": "Dating Orchestrator",
+      "description": "Autonomous dating autopilot that rotates between swiping, messaging, and scheduling using heartbeat",
+      "category": "social",
+      "author": "cellclaw",
+      "version": "1.0.0",
+      "file": "skills/dating_orchestrator.md",
+      "tools": ["heartbeat.context", "skill.read", "app.launch", "app.automate", "screen.read", "screen.capture", "vision.analyze", "calendar.create", "calendar.query", "notification.send", "schedule.manage", "location.get", "browser.search"],
+      "apps": ["Tinder", "Bumble", "Hinge", "Google Calendar"],
+      "downloads": 0
     }
   ]
 }
